@@ -6,9 +6,9 @@ Notes and scripts for setting up a new GNU/Linux (Ubuntu 20.x) development envir
 
 No need to go searching for any of this crap, it will work on a fresh Ubuntu install.
 
-- ✅️ Package management: `apt` and `snap`. apt is good for command-line tools, where snap is kind of like brew casks, if you're familiar with homebrew on macOS.
-- ✅️ Git! Mmm, sweet delicious nourishing version control.
-- ✅️ Python 3! Slitherin'
+- ✅️ **Package management:** `apt` and `snap`. apt is good for command-line tools, where snap is kind of like brew casks, if you're familiar with homebrew on macOS.
+- ✅️ **Git!** Mmm, sweet delicious nourishing version control.
+- ✅️ **Python 3!** Slitherin'
 
 ## 🐕️ Fetching other stuff:
 
