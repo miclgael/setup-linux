@@ -1,6 +1,6 @@
 # setup-linux
 
-Notes and scripts for setting up a new Linux/GNU (Ubuntu 20.x) development environment _(Follow at your own risk / benefit)_
+Notes and scripts for setting up a new GNU/Linux (Ubuntu 20.x) development environment _(Follow at your own risk / benefit)_
 
 ## 📦️ Working out of the box
 
