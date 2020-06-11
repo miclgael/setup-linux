@@ -2,6 +2,8 @@
 
 Notes and scripts for setting up a new GNU/Linux (Ubuntu 20.x) development environment _(Follow at your own risk / benefit)_
 
+I also have guides for [Mac](https://github.com/miclgael/setup) and [Windows](https://github.com/miclgael/setup-win)!
+
 ## 📦️ Working out of the box
 
 No need to go searching for any of this crap, it will work on a fresh Ubuntu install.
