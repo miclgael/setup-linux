@@ -133,6 +133,14 @@ snap install micro --classic
 sudo apt install xclip
 ```
 
+### Install PostgreSQL
+
+I like to [follow this guide](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart) to remember how to get set-up, but if you just want the install command, here it is:
+
+```bash
+sudo apt install postgresql postgresql-contrib
+```
+
 ### Install VS Code / VS Codium
 
 ```bash
