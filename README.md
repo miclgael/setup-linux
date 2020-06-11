@@ -23,9 +23,23 @@ sudo apt install git-lfs
 ### 💤 Install [Z-Shell and Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
 
 - Zsh is an alternative terminal shell. OMZsh comes with lots of [themes](https://github.com/ohmyzsh/ohmyzsh#themes).
-- **Zsh should be installed first**, see [installing zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH), or `sudo apt install zsh`
+- **Zsh should be installed first**, see [installing zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 
-##### Install Oh My Zsh:
+##### 1. Install Zsh
+
+```bash
+sudo apt install zsh
+```
+
+##### 2. Change default shell to zshell
+
+```bash
+chsh -s $(which zsh)
+```
+
+Press **(2)** at the menu, to populate the `~/.zshrc` with defaults
+
+##### 3. Install Oh My Zsh:
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
