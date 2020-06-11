@@ -45,8 +45,11 @@ Press **(2)** at the menu, to populate the `~/.zshrc` with defaults
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-### 💻️ Install Development tools!
+##### X. If you need Curl...
 
+`sudo apt-get install curl`
+
+### 💻️ Install Development tools!
 
 **💚 Install [Node Version Manager](https://github.com/nvm-sh/nvm)**
 
