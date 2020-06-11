@@ -144,7 +144,7 @@ sudo apt install postgresql postgresql-contrib
 ### Install VS Code / VS Codium
 
 ```bash
-# TODO
+snap install codium --classic
 ```
 
 ### 💻 Install preferred VS Code extensions
@@ -152,38 +152,6 @@ sudo apt install postgresql postgresql-contrib
 Install the [Settings Sync extension](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync), then connect it to the appropriate [Github Gist](https://gist.github.com/miclgael/79b65d3420f95a943eb9bf94be1399c5).
 
 (I'm opting for this extension over the new built-in sync settings for privacy reasons)
-
-### 🎨 Install design apps
-
-```bash
-# TODO
-```
-
-### Install Google fonts
-
-w/Thanks to qrpike's [Web Font Load](https://github.com/qrpike/Web-Font-Load)
-
-```bash
-curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install.sh | bash
-```
-
-### 🛡 Install other misc. software
-
-```bash
-# TODO
-```
-
-### 🎹 Install music apps (optional)
-
-```bash
-# TODO
-```
-
-### 📼 Install multimedia apps (optional)
-
-```bash
-# TODO
-```
 
 ### Install global node packages
 
