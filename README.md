@@ -117,6 +117,15 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 
+Verify docker runs without error
+
+```bash
+docker ps
+
+## If error, try:
+sudo usermod -a -G docker $USER
+```
+
 (end Docker stuff)
 
 </details>
