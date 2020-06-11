@@ -115,14 +115,26 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 
+(end Docker stuff)
+
 </details>
-
-
 
 **Micro editor (nicer than Nano, less hectic than vim)**
 
 ```bash
 snap install micro --classic
+```
+
+**Allow copy/paste in micro**
+
+```bash
+sudo apt install xclip
+```
+
+### Install VS Code / VS Codium
+
+```bash
+# TODO
 ```
 
 ### 💻 Install preferred VS Code extensions
