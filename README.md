@@ -133,7 +133,12 @@ sudo usermod -a -G docker $USER
 **Micro editor (nicer than Nano, less hectic than vim)**
 
 ```bash
+# If you have snapd
 snap install micro --classic
+
+# No Snap?
+curl https://getmic.ro | bash
+sudo mv micro /usr/bin
 ```
 
 **Allow copy/paste in micro**
