@@ -18,6 +18,8 @@ sudo timedatectl set-timezone Australia/Melbourne
 date
 ```
 
+<sub>Credit: [Linuxize](https://linuxize.com/post/how-to-set-or-change-timezone-on-debian-10/)</sub>
+
 ## Setup cron jobs
 
 ```bash
