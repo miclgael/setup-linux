@@ -3,3 +3,4 @@ discord
 lutris
 obsidian
 emoji-keyboard
+ulauncher
