@@ -69,3 +69,8 @@ done 3< packages_local.txt
 while read -u 3 line; do
   splitr $line ";"
 done 3< packages.txt
+
+# Check each app stored locally
+while read -u 3 line; do
+  flatpak install flathub $line -y
+done 3< flatpaks.txt
