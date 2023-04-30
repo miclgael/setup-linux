@@ -60,12 +60,12 @@ splitr () {
   done
 }
 
-# Check each app stored locally
+# Check each app stored locally (apt)
 while read -u 3 line; do
   check_command $line l
 done 3< packages_local.txt
 
-# Check each app stored locally
+# Check each app apt (apt)
 while read -u 3 line; do
   splitr $line ";"
 done 3< packages.txt
