@@ -70,7 +70,12 @@ while read -u 3 line; do
   splitr $line ";"
 done 3< packages.txt
 
-# Check each app stored locally
+# Check and install flatpaks
 while read -u 3 line; do
   flatpak install flathub $line -y
 done 3< flatpaks.txt
+
+# Check and install snaps
+while read -u 3 line; do
+  snap install $line -y
+done 3< snaps.txt

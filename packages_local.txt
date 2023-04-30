@@ -1,2 +1,3 @@
 emoji-keyboard
 ulauncher
+espanso
