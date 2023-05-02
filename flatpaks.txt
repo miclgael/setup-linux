@@ -19,3 +19,4 @@ org.yuzu_emu.yuzu
 tv.plex.PlexDesktop
 fm.reaper.Reaper
 info.cemu.Cemu
+com.usebottles.bottles

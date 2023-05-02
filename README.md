@@ -25,6 +25,11 @@ Note, Multiple package names are separated again, by a `,` character.
 3. Run `sudo bash ./setup.sh` and answer the `y/n` prompts as they appear. 
 
 
+## Packages
+
+- [https://rustdesk.com/](RustDesk) an open source, cross-platform AnyDesk/TeamViewer alternative. 
+- @TODO: more notes here
+
 ## Credits
 
 - File tree generated with https://tree.nathanfriend.io/
