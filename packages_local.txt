@@ -1,3 +1,5 @@
 emoji-keyboard
 ulauncher
 espanso
+rustdesk
+
