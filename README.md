@@ -1,6 +1,8 @@
 # Setup Linux
 
-This repo contains my personal setup scripts for my Ubuntu desktop partitian. This is not a complete setup, but it gets me part way there. 
+This repo contains my personal setup scripts for my ~~Ubuntu~~ PoP!\_OS desktop partition. This is not a complete setup, but it gets me part way there. 
+
+> Some parts are out of date, I'm still working on migrating from Ubuntu to Pop.
 
 Feel free to modify and use at your own risk. 
 
