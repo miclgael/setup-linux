@@ -51,7 +51,6 @@ Note, Multiple package names are separated again, by a `,` character.
 - `bottles` - Modern WINE bottler app
 - `OBS` - OBS Studio, for streaming/capturing
 - `Thunderbird` - Email client
-- `Steam` - Ya know, steam.
 - `Handbreak` - 
 - `Primehack` - modded Dolphin emulator
 - `micro` - text editor for terminal
@@ -74,6 +73,10 @@ Note, Multiple package names are separated again, by a `,` character.
 I've tried to avoid using Snap as much as I can.
 
 - `icloud-for-linux` - These are just web-wrappers around some common iCloud tools like calendar and reminders.
+
+### Cleanup
+
+- `Steam` - Advise installing straight from the `.deb` on the [Steam website](https://store.steampowered.com/about/download). Especially if you want to use controllers. 
 
 ## Code Extensions
 
