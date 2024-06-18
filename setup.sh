@@ -65,10 +65,15 @@ while read -u 3 line; do
   check_command $line l
 done 3< packages_local.txt
 
-# Check each app apt (apt)
+# Check each apt apps
 while read -u 3 line; do
   splitr $line ";"
 done 3< packages.txt
+
+# Check each apt-get apps
+while read -u 3 line; do
+  apt-get install $line -y
+done 3< apt-gets.txt
 
 # Check and install flatpaks
 while read -u 3 line; do

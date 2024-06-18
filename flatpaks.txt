@@ -20,3 +20,5 @@ tv.plex.PlexDesktop
 fm.reaper.Reaper
 info.cemu.Cemu
 com.usebottles.bottles
+com.google.Chrome
+io.github.Figma_Linux.figma_linux
