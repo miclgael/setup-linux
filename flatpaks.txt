@@ -15,7 +15,6 @@ org.gnome.BreakTimer
 org.libretro.RetroArch
 org.mozilla.Thunderbird
 org.videolan.VLC
-org.yuzu_emu.yuzu
 tv.plex.PlexDesktop
 fm.reaper.Reaper
 info.cemu.Cemu
