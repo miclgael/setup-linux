@@ -1,4 +1,0 @@
-ulauncher
-espanso
-rustdesk
-
