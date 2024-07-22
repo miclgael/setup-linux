@@ -37,12 +37,6 @@ Note, Multiple package names are separated again, by a `,` character.
 - `zsh` - alternative terminal shell
 - `postgresql` - for databases
 
-### Local packages
-
-- `ulauncher` - Alfred alternative
-- `espanso` - Open source, cross-platform snippets/macro app
-- `rustdesk` - [https://rustdesk.com/](RustDesk) is an open source, cross-platform AnyDesk/TeamViewer alternative. 
-
 ### Flatpaks
 
 - `codium` - Open-source, "un-microsoft'd" VS Code.
@@ -58,7 +52,6 @@ Note, Multiple package names are separated again, by a `,` character.
 - `RPCS3` - PS3 Emulator
 - `BreakTimer` - Just constantly interrupts me and tells me to take a break
 - `RetroArch` - Multi-system emulator
-- `yuzu` - Nintendo Switch emulator
 - `PlexDesktop` - Multimedia client app
 - `Plexamp` - Multimedia client app
 - `VLC` - Multimedia app
@@ -67,12 +60,6 @@ Note, Multiple package names are separated again, by a `,` character.
 - `xemu` - Xbox Emulator
 - `RMG` - N64 Emulator (Rosalie's Mupen GUI)
 - @TODO: more notes here
-
-### Snaps
-
-I've tried to avoid using Snap as much as I can.
-
-- `icloud-for-linux` - These are just web-wrappers around some common iCloud tools like calendar and reminders.
 
 ### Cleanup
 
@@ -83,6 +70,11 @@ I've tried to avoid using Snap as much as I can.
 - I've included Github Copilot as a `.visx` file, since you can't install GHCP the regular way with Codium.
 - Shout-out to @ustas-eth for the [https://github.com/VSCodium/vscodium/discussions/1487](\[GUIDE\] to running Copilot in VSCodium)
 
+https://github.com/VSCodium/vscodium/discussions/1487#discussioncomment-5833624
+
 ## Credits
 
 - File tree generated with https://tree.nathanfriend.io/
+
+<!-- TODO -->
+<!-- xrandr --output USB-C-0 --primary --mode 3440x1440 --rate 120.00 -->
