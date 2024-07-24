@@ -17,12 +17,14 @@ source $SCRIPTS_DIR/modules/helpers.sh
 source $SCRIPTS_DIR/modules/setup.sh
 
 # Modules
+source $SCRIPTS_DIR/modules/apt.sh
 source $SCRIPTS_DIR/modules/brew.sh
-source $SCRIPTS_DIR/modules/node.sh
-source $SCRIPTS_DIR/modules/dotfiles.sh
-source $SCRIPTS_DIR/modules/fonts.sh
 source $SCRIPTS_DIR/modules/codium.sh
 source $SCRIPTS_DIR/modules/displays.sh
+source $SCRIPTS_DIR/modules/dotfiles.sh
+source $SCRIPTS_DIR/modules/fonts.sh
+source $SCRIPTS_DIR/modules/node.sh
+source $SCRIPTS_DIR/modules/plex.sh
 
 finish_date=$(date +"%Y-%m-%d")
 finish_time_am_pm=$(date +"%I:%M %p")
