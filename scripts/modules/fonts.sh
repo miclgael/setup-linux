@@ -1,5 +1,5 @@
 #!/bin/bash
-# Copyright 2023 Michael Gale <https://www.michaelgale.dev/>
+# Copyright 2024 Michael Gale <https://www.michaelgale.dev/>
 
 # Installs fira-code powerline font for use in Gnome terminal
 

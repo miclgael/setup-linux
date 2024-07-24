@@ -1,3 +1,6 @@
+#!/bin/bash
+# Copyright 2024 Michael Gale <https://www.michaelgale.dev/>
+
 ##---------------##
 ##--- Aliases ---##
 ##---------------##
@@ -14,9 +17,6 @@ alias olint='onchange "**/*.ts" "**/*.js" "**/*.vue" --exclude-path .gitignore  
 alias watch='nr watch'
 alias deploy='nr deploy'
 
-# Re-run the `modules/dock.sh` script to refresh the dock to "default"
-# alias refreshdock='bash ~/Code/projects/setup/scripts/modules/dock.sh'
-
 # Use fastfetch instead of neofetch, if available
 alias neofetch='echo "using fastfetch" && fastfetch'
 
@@ -25,3 +25,6 @@ alias ls_node_modules="find . -name 'node_modules' -type d -prune"
 
 # Recursively remove all node_modules folders from the current directory
 alias rm_node_modules="find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +"
+
+# Displays shortcut
+alias display="bash $HOME/Code/projects/setup-linux/scripts/modules/displays.sh"

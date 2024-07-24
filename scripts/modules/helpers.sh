@@ -1,3 +1,6 @@
+#!/bin/bash
+# Copyright 2024 Michael Gale <https://www.michaelgale.dev/>
+
 # KISS Colors (v1): https://github.com/ppo/bash-colors/blob/master/kiss-colors.sh
 if ((`tput colors` >= 8)); then
   readonly reset="\e[0m"       # Uppercase = bold.

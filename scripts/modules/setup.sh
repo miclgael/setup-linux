@@ -1,9 +1,6 @@
 #!/bin/bash
-
-# Copyright 2023 Michael Gale <https://www.michaelgale.dev/>
-
-# Original copyright Mathias Bynens <https://mathiasbynens.be/>
-# Original License can be found within the .github folder of this repo @ `.github/LICENSE-MIT.txt`
+# Copyright 2024 Michael Gale <https://www.michaelgale.dev/>
+# Based on work by Mathias Bynens <https://mathiasbynens.be/>
 
 heading 'Running setup.sh'
 info "This script will install Homebrew, Spaceship ZSH theme, and other useful tools.\nPlease enter your password - the sudo session should stay alive for the entire process."
