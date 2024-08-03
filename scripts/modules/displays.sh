@@ -23,7 +23,7 @@ fi
 
 # If argument 1 is "tv", set the primary display to the 4K TV and disable the ultrawide monitor
 if [ "$1" == "tv" ]; then
-  xrandr --output $DISPLAY_4K_TV --primary --mode 2560x1440 --rate 60.00
+  xrandr --output $DISPLAY_4K_TV --primary --mode 3840x2160 --rate 59.94
   
   # Disable the ultrawide monitor
   xrandr --output $DISPLAY_UW_MONITOR --off
