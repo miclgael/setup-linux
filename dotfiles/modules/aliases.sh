@@ -28,3 +28,6 @@ alias rm_node_modules="find . -name 'node_modules' -type d -prune -exec rm -rf '
 
 # Displays shortcut
 alias display="bash $HOME/Code/projects/setup-linux/scripts/modules/displays.sh"
+
+# Update all the stuff
+alias update_all="sudo sh -c 'apt update; apt upgrade; apt-get update; apt-get upgrade; flatpak upgrade -y; brew update; brew upgrade; omz update;'"
