@@ -1,33 +1,21 @@
-# Setup Linux
+# 🧋 Setup Linux
 
-This repo contains my personal setup scripts for my ~~Ubuntu~~ PoP!\_OS desktop partition. This is not a complete setup, but it gets me part way there. 
+Opinionated notes and scripts for setting up a fresh Pop!\_OS computer for web development, gaming, and general hobbying _(Follow at your own risk / benefit)_
 
-> Some parts are out of date, I'm still working on migrating from Ubuntu to Pop.
+> 💡 I also have guides for [macOS](https://github.com/miclgael/setup) and [Windows](https://github.com/miclgael/setup-win)!
 
-Feel free to modify and use at your own risk. 
-
-## Overview
-
-```
-.
-├── packages/
-│   ├── some-package.deb
-│   └── some-other-package.deb 
-├── packages_local.txt
-├── packages.txt
-├── snaps.txt
-├── README.md
-└── setup.sh
-```
+**NB: Tested on POP_OS 22.04 (Jammy)**
 
 ## Usage
 
 1. Download this repo, unzip and `cd` into it. 
-2. Check and modify `packages.txt` and `packages_local.txt` as needed. These lines contain a list of commmands and their package names (if package name differs from command) - separated by a `;` character. 
+2. Check and modify `packages/apt.txt`, `packages/brew.txt` and `packages/flatpak.txt` as you desire. Each line consists of a command and its package names (if package name differs from command) - separated by a `;` character. 
 Note, Multiple package names are separated again, by a `,` character.
 3. Run `sudo bash ./setup.sh` and answer the `y/n` prompts as they appear. 
 
-## Packages
+## Packages 
+
+TODO: Need to update these lists as they're now out of date.
 
 ### apt
 
@@ -59,9 +47,9 @@ Note, Multiple package names are separated again, by a `,` character.
 - `Cemu` - Wii U Emulator
 - `xemu` - Xbox Emulator
 - `RMG` - N64 Emulator (Rosalie's Mupen GUI)
-- @TODO: more notes here
+- TODO: more notes here
 
-### Cleanup
+### Clean-up
 
 - `Steam` - Advise installing straight from the `.deb` on the [Steam website](https://store.steampowered.com/about/download). Especially if you want to use controllers. 
 
@@ -69,12 +57,5 @@ Note, Multiple package names are separated again, by a `,` character.
 
 - I've included Github Copilot as a `.visx` file, since you can't install GHCP the regular way with Codium.
 - Shout-out to @ustas-eth for the [https://github.com/VSCodium/vscodium/discussions/1487](\[GUIDE\] to running Copilot in VSCodium)
-
-https://github.com/VSCodium/vscodium/discussions/1487#discussioncomment-5833624
-
-## Credits
-
-- File tree generated with https://tree.nathanfriend.io/
-
-<!-- TODO -->
-<!-- xrandr --output USB-C-0 --primary --mode 3440x1440 --rate 120.00 -->
+- https://github.com/VSCodium/vscodium/discussions/1487#discussioncomment-5833624
+- Other extensions relate to me and my work, so ignore if not needed.
