@@ -1,6 +1,8 @@
 # Setup Linux
 
-This repo contains my personal setup scripts for my Ubuntu desktop partitian. This is not a complete setup, but it gets me part way there. 
+This repo contains my personal setup scripts for my ~~Ubuntu~~ PoP!\_OS desktop partition. This is not a complete setup, but it gets me part way there. 
+
+> Some parts are out of date, I'm still working on migrating from Ubuntu to Pop.
 
 Feel free to modify and use at your own risk. 
 
@@ -35,12 +37,6 @@ Note, Multiple package names are separated again, by a `,` character.
 - `zsh` - alternative terminal shell
 - `postgresql` - for databases
 
-### Local packages
-
-- `ulauncher` - Alfred alternative
-- `espanso` - Open source, cross-platform snippets/macro app
-- `rustdesk` - [https://rustdesk.com/](RustDesk) is an open source, cross-platform AnyDesk/TeamViewer alternative. 
-
 ### Flatpaks
 
 - `codium` - Open-source, "un-microsoft'd" VS Code.
@@ -49,7 +45,6 @@ Note, Multiple package names are separated again, by a `,` character.
 - `bottles` - Modern WINE bottler app
 - `OBS` - OBS Studio, for streaming/capturing
 - `Thunderbird` - Email client
-- `Steam` - Ya know, steam.
 - `Handbreak` - 
 - `Primehack` - modded Dolphin emulator
 - `micro` - text editor for terminal
@@ -57,7 +52,6 @@ Note, Multiple package names are separated again, by a `,` character.
 - `RPCS3` - PS3 Emulator
 - `BreakTimer` - Just constantly interrupts me and tells me to take a break
 - `RetroArch` - Multi-system emulator
-- `yuzu` - Nintendo Switch emulator
 - `PlexDesktop` - Multimedia client app
 - `Plexamp` - Multimedia client app
 - `VLC` - Multimedia app
@@ -67,17 +61,20 @@ Note, Multiple package names are separated again, by a `,` character.
 - `RMG` - N64 Emulator (Rosalie's Mupen GUI)
 - @TODO: more notes here
 
-### Snaps
+### Cleanup
 
-I've tried to avoid using Snap as much as I can.
-
-- `icloud-for-linux` - These are just web-wrappers around some common iCloud tools like calendar and reminders.
+- `Steam` - Advise installing straight from the `.deb` on the [Steam website](https://store.steampowered.com/about/download). Especially if you want to use controllers. 
 
 ## Code Extensions
 
 - I've included Github Copilot as a `.visx` file, since you can't install GHCP the regular way with Codium.
 - Shout-out to @ustas-eth for the [https://github.com/VSCodium/vscodium/discussions/1487](\[GUIDE\] to running Copilot in VSCodium)
 
+https://github.com/VSCodium/vscodium/discussions/1487#discussioncomment-5833624
+
 ## Credits
 
 - File tree generated with https://tree.nathanfriend.io/
+
+<!-- TODO -->
+<!-- xrandr --output USB-C-0 --primary --mode 3440x1440 --rate 120.00 -->

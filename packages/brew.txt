@@ -1,0 +1,7 @@
+spaceship
+zsh-autosuggestions
+zsh-syntax-highlighting
+fastfetch
+micro
+composer
+speedtest-cli

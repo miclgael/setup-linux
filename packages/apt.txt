@@ -1,0 +1,5 @@
+xclip
+curl
+zsh
+psql;postgresql,postgresql-contrib
+flatpak

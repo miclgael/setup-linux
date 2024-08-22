@@ -63,12 +63,12 @@ splitr () {
 # Check each app stored locally (apt)
 while read -u 3 line; do
   check_command $line l
-done 3< packages_local.txt
+done 3< packages/apt.txt
 
 # Check each apt apps
 while read -u 3 line; do
   splitr $line ";"
-done 3< packages.txt
+done 3< packages/apt.txt
 
 # Check each apt-get apps
 while read -u 3 line; do
@@ -78,9 +78,14 @@ done 3< apt-gets.txt
 # Check and install flatpaks
 while read -u 3 line; do
   flatpak install flathub $line -y
-done 3< flatpaks.txt
+done 3< packages/flatpak.txt
 
 # Check and install snaps
 while read -u 3 line; do
   snap install $line -y
-done 3< snaps.txt
+done 3< packages/snap.txt
+
+# Check and install brew
+while read -u 3 line; do
+  brew install $line -y
+done 3< packages/brew.txt
