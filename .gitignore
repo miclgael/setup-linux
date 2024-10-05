@@ -1,3 +1,5 @@
 .DS_Store
 *.alias
 .env
+*.creds.*
+!*.creds.*.example
