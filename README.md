@@ -17,7 +17,7 @@ Note, Multiple package names are separated again, by a `,` character.
 
 TODO: Need to update these lists as they're now out of date.
 
-### apt
+### apt/get
 
 - `curl` - URL getter
 - `flatpak` - alternative package manager that works across different distributions 
@@ -27,33 +27,44 @@ TODO: Need to update these lists as they're now out of date.
 
 ### Flatpaks
 
-- `codium` - Open-source, "un-microsoft'd" VS Code.
+- `Codium` - Open-source, "un-microsoft'd" VS Code.
 - `Discord` - The chat app
 - `Obsidian` - Notes
-- `bottles` - Modern WINE bottler app
+- `Bottles` - Modern WINE bottler app
 - `OBS` - OBS Studio, for streaming/capturing
 - `Thunderbird` - Email client
-- `Handbreak` - 
+- `Handbrakespaceship` - Video file conversion util
 - `Primehack` - modded Dolphin emulator
-- `micro` - text editor for terminal
-- `Lutris` - Multi-system game organiser
+- `Micro` - text editor for terminal
 - `RPCS3` - PS3 Emulator
-- `BreakTimer` - Just constantly interrupts me and tells me to take a break
 - `RetroArch` - Multi-system emulator
 - `PlexDesktop` - Multimedia client app
 - `Plexamp` - Multimedia client app
 - `VLC` - Multimedia app
 - `Reaper` - Audio software
 - `Cemu` - Wii U Emulator
-- `xemu` - Xbox Emulator
+- `Xemu` - Xbox Emulator
 - `RMG` - N64 Emulator (Rosalie's Mupen GUI)
-- TODO: more notes here
+
+### Homebrew
+
+Brew (macOS package manager) can be useful for installing non-cask packages.
+
+- `spaceship`
+- `zsh-autosuggestions`
+- `zsh-syntax-highlighting`
+- `fastfetch`
+- `speedtest-cli`
 
 ### Clean-up
 
-- `Steam` - Advise installing straight from the `.deb` on the [Steam website](https://store.steampowered.com/about/download). Especially if you want to use controllers. 
+Due to Flatpak sandbox issues, and other listed issues, I recommend installing the following apps without a package manager.
 
-## Code Extensions
+- `Steam` - Game client/store. Advise installing straight from the `.deb` on the [Steam website](https://store.steampowered.com/about/download). Especially if you want to use controllers.
+- `DBeaver` - Database management. Advise installing straight from the `.deb` on the [DBeaver website](https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb) due to dbeaver/dbeaver#20371.
+- `Lutris` - Multi-system game organiser. Advise installing straight from the `.deb` on the [Lutris releases page](https://github.com/lutris/lutris/releases) due to sandboxing issues.
+
+## VS Code Extensions
 
 - I've included Github Copilot as a `.visx` file, since you can't install GHCP the regular way with Codium.
 - Shout-out to @ustas-eth for the [https://github.com/VSCodium/vscodium/discussions/1487](\[GUIDE\] to running Copilot in VSCodium)
