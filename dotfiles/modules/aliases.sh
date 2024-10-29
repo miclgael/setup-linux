@@ -12,6 +12,7 @@ alias dev='nr dev'
 alias sb='nr storybook:nuxt'
 alias unit='nr test'
 alias olint='onchange "**/*.ts" "**/*.js" "**/*.vue" --exclude-path .gitignore  -- eslint "$(echo {{file}})" --fix && yarn stylelint "$(echo {{file}})" --fix'
+alias dev_all='nr dev:all'
 
 # MG specific shortcuts
 alias watch='nr watch'
@@ -31,3 +32,6 @@ alias display="bash $HOME/Code/projects/setup-linux/scripts/modules/displays.sh"
 
 # Update all the stuff
 alias update_all="sudo sh -c 'apt update; apt upgrade -y; apt-get update; apt-get upgrade -y; flatpak upgrade -y;' && brew update; brew upgrade; omz update;"
+
+# Modifying setup configs
+alias setup="cd $HOME/Code/projects/setup-linux && code ."

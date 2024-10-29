@@ -44,6 +44,11 @@ oh () {
   cd $HOME/Code/projects/ohsilence.com
 }
 
+# Oh Silence website
+mono () {
+  cd $HOME/Code/projects/mono
+}
+
 # Jump to projects folder
 projects () {
   cd $HOME/Code/projects/
