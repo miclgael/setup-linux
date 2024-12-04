@@ -1,5 +1,10 @@
 # 🧋 Setup Linux
 
+> [!WARNING]
+> **Deprecated**<br>
+> This repo will soon be archived. It will stay accessible but I will no longer be making updates.
+> <br> I am moving to an "All-In-One" setup repo for macOS, Linux, Windows, SteamDeck and Ungoogled Android.
+
 Opinionated notes and scripts for setting up a fresh Pop!\_OS computer for web development, gaming, and general hobbying _(Follow at your own risk / benefit)_
 
 > 💡 I also have guides for [macOS](https://github.com/miclgael/setup) and [Windows](https://github.com/miclgael/setup-win)!
